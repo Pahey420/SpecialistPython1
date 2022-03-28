@@ -6,3 +6,11 @@
 # Выведите «YES», если можно отломить от шоколадки ровно k долек, и «NO» иначе.
 
 # TODO: your code here
+n = int(input("введите целое чисто n: "))
+m = int(input("введите целое чисто m: "))
+k = int(input("введите целое чисто k: "))
+
+if k % n == 0 or k % m == 0:
+    print("yes")
+else:
+    print("no")

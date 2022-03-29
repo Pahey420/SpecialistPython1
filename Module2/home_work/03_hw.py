@@ -31,3 +31,65 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+x = float(input("Введите положительное вещественное число x - цену единицы товара: "))
+#for n in range(1, 20):
+n = 1
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 2
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 3
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 4
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 5
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 6
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 7
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 8
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 9
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 10
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 11
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 12
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 13
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 14
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 15
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 16
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 17
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 18
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 19
+s = float(n * x)
+print(n, " ", s, " Rub.")
+n = 20
+s = float(n * x)
+print(n, " ", s, " Rub.")

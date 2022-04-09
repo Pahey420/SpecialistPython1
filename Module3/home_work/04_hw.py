@@ -5,3 +5,11 @@
 # Пример:
 # Дано: [2, -5, 8, 9, -25, 25, 4]
 # Результат: [3, 5, 2]
+numbers = [2, -5, 8, 9, -25, 25, 4]
+rez = []
+for number in numbers:
+    if number > 0:
+        number = round(number ** 0.5, 2)
+        if number % 1 == 0:
+            rez.append(round(number))
+print(rez)

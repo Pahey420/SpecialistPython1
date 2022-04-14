@@ -4,10 +4,17 @@
 
 # При решении задачи необходимо использовать функцию расстояния между двумя точками.
 
+
 def distance(x1, y1, x2, y2):
     # TODO: тело, которое вы реализовали на практической работе
+    return ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+def segment(l1, l2, l3):
+    ab = distance(*l1, *l2)
+    bc = distance(*l2, *l3)
+    ca = distance(*l1, *l3)
+    dict_segment = {'AB': ab, 'BC': bc, 'CA': ca}
+    return min(dict_segment, key=dict_segment.get)
     pass
-
-
+# print(segment((10, 12), (15, 12), (11, 12)))
 # TODO: your code here
-print("Самый короткий отрезок:", ...)  # Выводим название отрезка, например “АС”.
+print("Самый короткий отрезок:", segment((10, 12), (17, 12), (18, 12)))  # Выводим название отрезка, например “АС”.
